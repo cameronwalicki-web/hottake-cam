@@ -19,13 +19,15 @@
 
 /* Redeclare the theme's slots to make them yours. Everything that asked for
  * `primary` follows — you do not have to touch the markup.
- *
+ *https://coolors.co/780000-c1121f-fdf0d5-003049-669bbc
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  /* --color-primary: #______; */
-  /* --color-primary-content: #______; */
-  /* --color-accent: #______; */
+--color-primary: #C1121F;
+--color-accent: #669BBC;
+--color-darkred: #780000;
+--color-skin: #FDF0D5;
+--color-darkblue: #003049;
 }
 
 /* TYPE
