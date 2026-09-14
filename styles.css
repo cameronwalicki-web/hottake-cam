@@ -30,6 +30,15 @@
 --color-darkblue: #003049;
 }
 
+
+.hero{
+  background-image: url("https://wallpapercave.com/wp/wp8232537.jpg")
+}
+.hero h1 {
+  text-shadow: 5px 5px 15px var(--color-darkblue);
+  font-size: 65px;
+  color: var(--color-accent);
+}
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
