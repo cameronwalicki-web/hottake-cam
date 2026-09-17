@@ -6,21 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My hot take</title>
 
-  <!--
-      THE THREE TAGS. Tailwind and daisyUI, no build step, nothing installed.
-      Open this file with Live Server and start working.
 
-      Two honest notes:
-        1. The last tag is Tailwind's BROWSER build. Tailwind's own docs say it
-           is "designed for development purposes only, and is not intended for
-           production." That is fine for now. Unit 8 replaces it with a real
-           built stylesheet, because publishing to a public address is where
-           "development only" stops being acceptable.
-        2. These load from jsdelivr, which means jsdelivr sees a request from
-           every reader of your site. That is your call to make on your own
-           project. Read Unit 8's "what a page costs its reader" before you
-           decide it does not matter.
-    -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -45,10 +31,53 @@
   </div>
 
 
-  <div class="container">
-    <div "class row colums"-3>
-  </div>
+  <div class="max-w-5xl mx-auto mt-15">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-3">
 
+      <!-- CARD 1 -->
+      <div class="card bg-base-100 shadow-sm">
+        <figure>
+          <img src= "https://wallpapercave.com/wp/jk47JYp.jpg" alt="Shoes"/>
+        </figure>
+        <div class="card-body">
+          <h2 class="Card title">Very beautiful</h2>
+          <p>The landscapes in winter are very nice and nice to look at.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card bg-base-100 shadow-sm">
+        <figure>
+          <img src="https://i.pinimg.com/originals/50/22/59/50225926c56ce2e1867d670a7bd8f32b.jpg" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">sports</h2>
+          <p>There are many fun winter sports like hockey, sking snowboarding ect.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card bg-base-100 shadow-sm">
+        <figure>
+          <img src="https://wallpaperaccess.com/full/82153.jpg" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Chrismas</h2>
+          <p>Chrismas witch is the best holiday is in winter and you get to hang out with family</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- closes the row -->
+  </div> <!-- closes the container -->
 
 </body>
 
