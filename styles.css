@@ -30,6 +30,9 @@
 --color-darkblue: #003049;
 }
 
+body{ 
+  background-color:darkred;
+}
 
 .hero{
   background-image: url("https://wallpapercave.com/wp/wp8232537.jpg")
